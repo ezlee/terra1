@@ -1,0 +1,14 @@
+{
+	"name": "AzureKeyVault_ADF_UMID",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://jerryaz303kv.vault.azure.net/",
+			"credential": {
+				"referenceName": "ADF-UMID",
+				"type": "CredentialReference"
+			}
+		}
+	}
+}
